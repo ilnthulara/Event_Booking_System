@@ -1,0 +1,98 @@
+body { 
+	font-family: "Lato", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #4facfe, #00f2fe);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Event Listings Section */
+.container {
+    background: linear-gradient(135deg, #4e73df, #6f42c1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar Background */
+form.d-flex {
+    background: linear-gradient(90deg, #f4a261, #e76f51);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form.d-flex input[type="search"] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+form.d-flex button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Book Now Button */
+.btn-primary {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+}
+
+/* Page Header */
+h1 {
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+footer {
+    background: linear-gradient(180deg, #2c3e50, #34495e);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ticket Confirmation Section */
+.ticket-confirmation {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ticket Details Styling */
+strong {
+    color: #2980b9;
+}
+
+.lato-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
